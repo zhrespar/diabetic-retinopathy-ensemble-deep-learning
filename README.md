@@ -174,62 +174,6 @@ Final prediction:
 
 ---
 
-## Project Structure
-
-```bash
-├── notebooks/
-│   ├── train.ipynb
-│   ├── evaluation.ipynb
-│   └── ensemble.ipynb
-│
-├── src/
-│   ├── dataset.py
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── ensemble.py
-│   └── utils.py
-│
-├── figures/
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│   ├── pr_curve.png
-│   └── training_curves.png
-│
-├── models/
-│   └── pretrained_weights/
-│
-├── requirements.txt
-└── README.md
-```
-
-## Installation
-
-```bash
-git clone https://github.com/USERNAME/diabetic-retinopathy-ensemble-deep-learning.git
-
-cd diabetic-retinopathy-ensemble-deep-learning
-
-pip install -r requirements.txt
-```
-
----
-
-## Training
-
-```bash
-python src/train.py
-```
-
----
-
-## Evaluation
-
-```bash
-python src/evaluate.py
-```
-
----
-
 ## Technologies Used
 
 - Python
@@ -251,16 +195,6 @@ Potential applications include:
 - Automated DR Screening
 - Telemedicine Platforms
 - Medical AI Research
-
----
-
-## Authors
-
-**Zahra Esparghami**
-
-Computer Engineering Department
-
-Biruni University
 
 ---
 
